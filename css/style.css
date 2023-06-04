@@ -432,11 +432,11 @@ img {
   padding: 32px 16px;
   margin-bottom: 8px;
 }
-.portfolio-list {
+.portfolio-item {
+  margin-bottom: 48px;
 }
 .portfolio-list-img {
   display: flex;
-  margin-bottom: 48px;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
