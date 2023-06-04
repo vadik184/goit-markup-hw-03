@@ -226,6 +226,7 @@ img {
   overflow: hidden;
 }
 .section-info {
+  display: block;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -276,7 +277,7 @@ img {
 }
 .works-list {
   display: flex;
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
   gap: 24px;
 }
 
