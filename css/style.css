@@ -435,8 +435,8 @@ img {
 .portfolio-list {
 }
 .portfolio-list-img {
-  row-gap: 48px;
   display: flex;
+  row-gap: 48px;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
