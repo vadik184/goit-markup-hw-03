@@ -391,7 +391,7 @@ img {
 .portfolio-list-buttons {
   display: flex;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   gap: 24px;
 }
 
@@ -433,13 +433,13 @@ img {
   margin-bottom: 8px;
 }
 .portfolio-item {
-  margin-bottom: 48px;
 }
 .portfolio-list-img {
   display: flex;
   flex-direction: row;
+  row-gap: 48px;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
 }
 
 .portfolio-list-img:nth-last-child(-n + 3) {
