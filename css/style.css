@@ -287,6 +287,9 @@ img {
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+.container-team {
+  display: block;
+}
 .container-team-subtitle-text {
   display: block;
   padding: 32px 16px;
@@ -300,7 +303,6 @@ img {
   text-transform: capitalize;
   color: var(--dark);
   display: block;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .team-list {
@@ -371,10 +373,10 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.portfolio-list-btn {
+.portfolio-list-buttons {
   display: flex;
   justify-content: center;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
   gap: 24px;
 }
 
