@@ -277,8 +277,11 @@ img {
 }
 .works-list {
   display: flex;
-  width: calc((100% - 3 * 16) / 3);
+
   gap: 24px;
+}
+.works-items {
+  width: calc((100% - 3 * 16) / 3);
 }
 
 /**---------------section team--------------**/
