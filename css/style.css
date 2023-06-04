@@ -433,15 +433,13 @@ img {
   margin-bottom: 8px;
 }
 .portfolio-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  gap: 24px;
-  margin-bottom: 48px;
 }
 .portfolio-list-img {
   row-gap: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .portfolio-list:nth-last-child(-n + 3) {
