@@ -433,11 +433,11 @@ img {
   margin-bottom: 8px;
 }
 .portfolio-list {
-  row-gap: 48px;
 }
 .portfolio-list-img {
   display: flex;
-
+  width: calc((100% - 6 * 24) / 6);
+  row-gap: 48px;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
