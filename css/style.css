@@ -252,10 +252,11 @@ img {
   width: calc((100% - 72px) / 4);
 }
 /**-------------section works-----------**/
+.works {
+  padding-bottom: 120px;
+}
 .container-works {
   display: block;
-  padding-bottom: 120px;
-  margin: 0 auto;
 }
 
 .works-title {
