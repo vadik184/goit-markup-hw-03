@@ -225,9 +225,12 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.section-info {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .container-info {
   display: block;
-  padding: 120px 0;
 }
 
 .info-subtitle {
@@ -273,7 +276,7 @@ img {
 }
 .works-list {
   display: flex;
-  width: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
   gap: 24px;
 }
 
