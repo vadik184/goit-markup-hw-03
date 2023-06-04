@@ -161,10 +161,11 @@ img {
 
 .hero {
   background-color: var(--dark);
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
 .hero-container {
   display: block;
-  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
