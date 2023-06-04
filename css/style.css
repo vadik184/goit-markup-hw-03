@@ -436,9 +436,12 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 48px;
+
   gap: 24px;
   margin-bottom: 48px;
+}
+.portfolio-list-img {
+  row-gap: 48px;
 }
 
 .portfolio-list:nth-last-child(-n + 3) {
